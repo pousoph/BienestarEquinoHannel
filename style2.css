@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Montserrat", "sans-serif";
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  padding: 5rem;
+}
+
+main {
+  max-width: 100rem;
+  margin: auto;
+}
+
+.drinks {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.drink-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drink-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+   text-align: justify;
+}
+
+.drink-image {
+  width: 250px; /* Tamaño pequeño de la imagen */
+  height: auto; /* Mantener la proporción de la imagen */
+}
+
+p {
+  text-align: justify;
+}
+
+body2 {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.report-section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #4CAF50;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul ul {
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+ul ul li {
+  margin-bottom: 5px;
+}
+
